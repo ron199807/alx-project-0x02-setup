@@ -1,10 +1,11 @@
 import { NextPage } from "next";
-import { Header } from "@/components/layout/Header";
+import Header  from '@/components/layout/Header'
 import Button from "@/components/common/Button";
 
 const About = () => {
   return (
     <div className="p-8">
+        <Header />
       <h1 className="text-2xl font-bold mb-6">About Page</h1>
       
       <div className="flex flex-col space-y-4 max-w-md">

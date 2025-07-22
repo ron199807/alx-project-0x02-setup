@@ -24,7 +24,7 @@ const PostModal: React.FC<PostModalProps> = ({ isOpen, onClose, onSubmit }) => {
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
       <div className="bg-white p-5 rounded-lg w-full max-w-md relative">
         <button 
-          className="absolute top-2 right-2 text-2xl bg-transparent border-none cursor-pointer text-gray-900 hover:bg-gray-200"
+          className="absolute top-2 right-2 text-4xl bg-transparent border-none cursor-pointer text-gray-600 hover:text-gray-900"
           onClick={onClose}
         >
           ×

@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Card from '../components/common/Card';
 import PostModal from '../components/common/PostModal';
+import Header from '@/components/layout/Header';
 
 interface Post {
   title: string;
@@ -21,6 +22,7 @@ const HomePage: React.FC = () => {
 
   return (
     <div className="p-5">
+      <Header />
       <h1 className="text-2xl font-bold mb-4">Welcome to Our App</h1>
       <button 
         className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors mb-5"
