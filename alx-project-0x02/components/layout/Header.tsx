@@ -31,6 +31,12 @@ const Header = () => {
             >
               Posts
             </Link>
+             <Link 
+              href="/users" 
+              className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-700 transition-colors"
+            >
+              Users
+            </Link>
           </div>
         </div>
       </nav>
