@@ -68,3 +68,53 @@ my-app/
 ├── tsconfig.json
 └── turbo.json
 ```
+
+---
+
+### Running the Development Server
+
+Start the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+
+---
+
+### Editing Pages
+
+- Edit the main page in `pages/index.tsx`. Changes will auto-update in the browser.
+- API routes can be added in `pages/api/`. For example, `pages/api/hello.ts` is accessible at `/api/hello`.
+
+---
+
+### Linting and Building
+
+- To lint the project:
+  ```bash
+  npm run lint
+  ```
+- To build the project for production:
+  ```bash
+  npm run build
+  ```
+- To start the production server:
+  ```bash
+  npm start
+  ```
+
+---
+
+### Learn More
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn-pages-router)
+-
